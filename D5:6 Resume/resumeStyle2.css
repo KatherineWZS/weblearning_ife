@@ -1,0 +1,81 @@
+.all{
+    display: flex;
+    justify-content:center;
+}
+.title{
+    background-color: royalblue;
+    color: white;
+    text-align: justify;
+    line-height: 80px;
+    width: 100px;
+    font-size: 2em;
+    padding: 10px;
+    font-weight:800; 
+    margin-right: 15px;
+    /* verticle display */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* order: 2; */
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}
+/* .right-block{
+    order: 1;
+} */
+.title1{
+    font-size: 1.2em;
+    padding: 15px;
+    font-weight:800; 
+    
+}
+.title2{
+    font-size: 1em;
+    font-weight:800; /* bold */
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.content2{
+    font-size: 1em;
+    margin-right: 30px;
+}
+.title3{
+    font-size: 1em;
+    font-weight:800; /* bold */
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+
+}
+.content3{
+    font-size: 1em;
+    padding-left: 15px;
+    display: block;
+    /* padding-bottom:10px; */
+}
+.a2{
+    font-size: 1em;
+    margin-right: 30px;
+    color: blue;
+    border-bottom: 1px solid blue;
+    
+}
+.a2:visited{
+    font-size: 1em;
+    margin-right: 30px;
+    color: purple;
+}
+.a2:focus{
+    font-size: 1em;
+    margin-right: 30px;
+    background-color: lightblue;
+    color: blue;
+}
+.a2:hover{
+    font-size: 1em;
+    margin-right: 30px;
+    color: pink;
+    border-bottom: 1px solid pink;
+    cursor:pointer;
+}
